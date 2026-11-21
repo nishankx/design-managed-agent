@@ -1,0 +1,11 @@
+[project]
+name = "design-studio"
+version = "0.1.0"
+description = "An on-brand design agent built on Managed Deep Agents. The starter repo for the MDA course labs."
+requires-python = ">=3.11"
+dependencies = [
+    "managed-deepagents>=0.10.1",
+    "langchain-anthropic",
+    "httpx",
+    "colorama>=0.4.6",
+]
